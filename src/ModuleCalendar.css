@@ -1,0 +1,19 @@
+/* ModuleCalendar.css */
+
+/* Increase overall calendar size */
+.react-calendar {
+  width: 700px;  /* Adjust as needed */
+  max-width: 100%;
+  font-size: 1.2rem; /* Bigger text */
+}
+
+/* Increase tile (date cell) height */
+.react-calendar__tile {
+  padding: 20px 10px; /* More space in each cell */
+}
+
+/* Make navigation bar bigger */
+.react-calendar__navigation {
+  height: 50px;
+  font-size: 1.5rem;
+}
