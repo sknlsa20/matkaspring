@@ -125,7 +125,7 @@ if (prevValue !== null) {
 
    
   
-    return <div className="mt-1 d-flex flex-row align-items-center">
+    return <div className="mt-1 d-flex flex-wrap align-items-start justify-content-center badge-container">
       <Badge pill className="bg-warning text-white">
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
      <span 
