@@ -42,7 +42,11 @@
     height: 45px;
   }
 }
-
+.badge-container {
+  display: flex;
+  flex-direction: row;
+  gap: 6px; /* spacing between badges */
+}
 /* ===============================
    Small Screens (Mobiles)
    =============================== */
@@ -61,5 +65,14 @@
   .react-calendar__navigation {
     font-size: 1rem;
     height: 40px;
+  }
+   .badge-container {
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  .badge {
+    width: 100%;          /* badges expand to full width */
+    text-align: center;   /* center text inside */
   }
 }
